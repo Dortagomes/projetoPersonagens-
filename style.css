@@ -22,13 +22,19 @@ h1{
 
 /*-------------------------------fFIM CABEÇALHO-------------------------------------*/
 
-
-.elemento--fiho {
-	max-width: 1=200%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+ .elemento--pai > div{
+    width: 100%;
+    height: 100%;
+    
 }
+
+.elemento--pai--right > div{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
 
 .elemento--fiho:hover{
 	-moz-transform: scale(1.1);
@@ -51,6 +57,7 @@ h1{
     padding: 50px 50px;
     text-align: center;
     margin: 50px 50px;
+   
     
 }
 
@@ -65,7 +72,7 @@ h1{
     position: relative;
     display: inline-block;
     cursor: pointer;
-    max-width: 550px
+    max-width: 600px;
 }
 
 
@@ -90,104 +97,17 @@ h1{
     background-repeat: no-repeat;
     transition: all .5s;
     overflow: hidden;
-}
-
-.elemento--fiho {
-	max-width: 1=200%;
+    max-width: 200%;
 	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
-.elemento--fiho--dois:hover{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-.elemento--fiho--dois{
-   
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
-
-.elemento--fiho--tres{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
-
-.elemento--fiho--tres:hover{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
 
 
 
-.elemento--fiho--quatro{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
-.elemento--fiho--quatro:hover{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
-.elemento--fiho--quatro:hover{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
 
-.elemento--fiho--cinco{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
-.elemento--fiho--cinco:hover{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
-.elemento--fiho--cinco:hover{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
 
-.elemento--fiho--seis{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
 
-.elemento--fiho--seis:hover{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
-}
-.elemento--fiho--seis:hover{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
+
 

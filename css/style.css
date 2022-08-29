@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    height: 80px;
+    background-color: rgb(255, 153, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    box-shadow: 8px 2px 4px #34495e;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #520975;
+    transition: .5s;
+    font-size: 20px;
+}
+
+div>ul>a:hover {
+
+    text-decoration: none;
+    -webkit-text-stroke: 2px #520975;
+    transition-timing-function: ease-in-out;
+    text-shadow: 0px 0px 20px #520975;
+}
+
+.logo1 {
+    display: flex;
+
+    width: 200px;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+
+
+/*-------------------------------FIM CABEÇALHO-------------------------------------*/
+
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 26px;
+    margin: 80px;
+}
+
+
+.title h1 {
+    font-size: 60px;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    top: 30px;
+    color: #520975;
+    text-shadow: 0px 0px 15px #520975;
+}
+
+.container {
+    min-width: 500px;
+    /* max-width: 1000px; */
+    text-align: center;
+    min-width: 400px;
+    margin: 82px auto;
+
+}
+
+
+.elemento--pai>div {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.elemento--pai--right>div {
+    width: 100%;
+    height: 100%;
+
+}
+
+.hover--card {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    transition: .3s;
+
+}
+
+.elemento--pai:hover .hover--card {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.851);
+
+
+
+}
+
+.elemento--pai--right:hover .hover--card {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.851);
+
+
+}
+
+.hover--card span {
+    list-style: none;
+    width: 400px;
+    font-size: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-shadow: 0px 10px 25px white
+}
+
+.hover--card a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.img--fundo {
+
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+
+    min-width: 500px;
+    max-width: 1000px;
+    text-align: center;
+    min-width: 400px;
+    margin-top: 80px;
+
+
+
+}
+
+.elemento--pai {
+
+    position: relative;
+    width: 40%;
+    margin: 20px;
+    height: 300px;
+    border: 10px solid rgb(251, 176, 1);
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    max-width: 600px;
+
+}
+
+
+.elemento--pai--right {
+
+    width: 40%;
+    margin: 20px;
+    height: 300px;
+    border: 10px solid rgb(251, 176, 1);
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    max-width: 550px
+}
+
+.elemento--fiho {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+    overflow: hidden;
+    max-width: 200%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+footer {
+    width: 100%;
+    height: 1000px;
+}
+
+.logo2 {
+    z-index: 99;
+    background-color: rgb(255, 153, 0);
+
+    justify-content: center;
+
+
+
+    box-shadow: 8px 2px 4px #34495e;
+
+
+    align-items: center;
+}
+
+
+
+
+/*------------------------STYLO personagens-------------------------------------------------------*/
+
+
+
+.container--personagem {
+
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    margin: 76px 150px;
+
+
+}
+
+.elemento--pai--right-personagem {
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    color: #520975;
+    /* text-shadow: 0px 0px 15px #520975; */
+
+
+}
+
+h1 {
+
+    text-shadow: 0px 10px 20px #520975;
+    animation: floaty 1.8s infinite alternate;
+    animation-direction: alternate-reverse;
+    /* animation: floaty 2.1s infinite; */
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.elemento--fiho--personagem p {
+    font-family: antenna;
+    text-align: center;
+    margin-bottom: 140px;
+    font-size: 35px;
+
+}
+
+.elemento--fiho--personagem img {
+    width: 600px;
+
+
+}
+
+.pulsante {}
+
+
+
+@keyframes floaty {
+    0% {
+        transform: translatex(0);
+
+        /* -webkit-text-stroke: #520975 1px; */
+        opacity: 1;
+        /* text-shadow:  0px 0px 50px #520975; */
+    }
+
+    100% {
+        transform: translateY(20px);
+        /* text-shadow:  0px 0px 10px #520975; */
+        /* text-shadow: #0f0713; */
+        /* -webkit-text-stroke: #4c067142 10px;  */
+        opacity: 1;
+    }
+
+}

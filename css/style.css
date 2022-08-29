@@ -277,9 +277,6 @@ h1 {
 
 }
 
-.pulsante {}
-
-
 
 @keyframes floaty {
     0% {
@@ -297,5 +294,70 @@ h1 {
         /* -webkit-text-stroke: #4c067142 10px;  */
         opacity: 1;
     }
+
+}
+
+
+/*----------------@Media------------------------*/
+
+
+@media (max-width: 634px) {
+    body {
+        background-image: 100%;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: 110px;
+    }
+
+    .img--fundo {
+        width: 500%;
+    }
+
+    .title h1 {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .hover--card span {
+        font-size: 20px;
+
+    }
+
+    .elemento--pai {
+        border: 5px solid rgb(251, 176, 1);
+        height: 200px;
+        width: 200px;
+    }
+
+    .elemento--pai--right {
+        border: 5px solid rgb(251, 176, 1);
+        height: 200px;
+        width: 200px;
+    }
+
+    .container--personagem {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container--personagem img {
+        width: 300px;
+    }
+
+    .elemento--fiho--personagem h1 {
+        font-size: 35px;
+    }
+
+    .elemento--fiho--personagem p {
+        font-size: 20px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+
+
 
 }

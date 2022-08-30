@@ -4,6 +4,16 @@
 }
 
 
+@font-face {
+    font-family: font-dbz;
+    src: url('../assents/fonts/Saiyan-Sans\ Left\ Oblique.ttf');
+}
+
+
+body{
+    font-family:font-dbz;
+    
+}
 nav {
     height: 80px;
     background-color: rgb(255, 153, 0);
@@ -48,7 +58,9 @@ div>ul>a:hover {
 
 li {
     list-style: none;
-    padding: 5px;
+    padding: 3px;
+    letter-spacing: 3px;
+    font-size: 30px
 }
 
 
@@ -62,19 +74,22 @@ li {
     justify-content: center;
     top: 26px;
     margin: 80px;
+    letter-spacing: 3px;
 }
 
 
 .title h1 {
     font-size: 60px;
     position: relative;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     align-items: center;
     margin: 10px;
     top: 30px;
     color: #520975;
-    text-shadow: 0px 0px 15px #520975;
+    text-shadow: 0px 10px px #520975;
+    letter-spacing: 3px;
+    
+   
 }
 
 .container {
@@ -127,10 +142,11 @@ li {
 }
 
 .hover--card span {
+   
     list-style: none;
     width: 400px;
     font-size: 55px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:font-dbz;
     color: white;
     text-shadow: 0px 10px 25px white
 }
@@ -251,7 +267,7 @@ footer {
 }
 
 h1 {
-
+letter-spacing: 8px;
     text-shadow: 0px 10px 20px #520975;
     animation: floaty 1.8s infinite alternate;
     animation-direction: alternate-reverse;
@@ -259,7 +275,7 @@ h1 {
     text-align: center;
     margin-bottom: 90px;
     font-size: 100px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:font-dbz;
 
 }
 
@@ -317,8 +333,10 @@ h1 {
     }
 
     .title h1 {
-        font-size: 25px;
+        font-size: 30px;
         width: 100%;
+        display: block;
+       
     }
 
     .hover--card span {
@@ -349,6 +367,7 @@ h1 {
 
     .elemento--fiho--personagem h1 {
         font-size: 35px;
+    
     }
 
     .elemento--fiho--personagem p {

@@ -299,9 +299,8 @@ h1 {
 
 
 /*----------------@Media------------------------*/
-
-
-@media (max-width: 634px) {
+ 
+@media (max-width: 1200px ) {
     body {
         background-image: 100%;
 
@@ -358,6 +357,5 @@ h1 {
         margin-bottom: 10px;
     }
 
-
-
 }
+

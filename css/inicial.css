@@ -8,11 +8,14 @@ body{
     background-attachment: fixed;
     background-size: 100% auto;
        background-repeat: no-repeat;
-    background-color: black;
+    background-color: black !important;
 }
 
 
-
+#aberturas{
+    top: 138px;
+    position: relative;
+}
 
 .container--banner{
 
@@ -28,19 +31,15 @@ body{
     top: 81px;
 
 }
-.videos{
-    display: flex;
-    flex-wrap: wrap;
-}
 
+.videos{
+    width: 80%;
+    margin: 312px 172px;
+}
 .videos div{
-   
-   
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%;
-    font-display: flex;
-    margin: 150px auto;
+      
+    width: 62%;
+    margin: 0px auto;
     
 }
 section div img{
@@ -54,8 +53,14 @@ section div {
     justify-content: center;
 }
 
-h1{
-    color: #520975;
+h1{ 
+    color: #520975  !important;
+    margin-bottom: .5rem;
+     font-size: 80px  !important;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family:font-dbz !important;
+   
 }
 span{
     position: relative;

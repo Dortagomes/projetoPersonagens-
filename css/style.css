@@ -23,9 +23,9 @@ nav {
     z-index: 99;
     box-shadow: 8px 2px 4px #34495e;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
 }
 
 nav ul a {
@@ -44,15 +44,16 @@ div>ul>a:hover {
 }
 
 .logo1 {
-    display: flex;
+    display: flex !important;
 
     width: 200px;
-    align-items: center;
+    align-items: center !important;
+
 
 }
 
 .menu {
-    display: flex;
+    display: flex !important;
     gap: 30px;
 }
 

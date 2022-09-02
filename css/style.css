@@ -270,8 +270,8 @@ footer {
 h1 { 
     letter-spacing:  8px;
     text-shadow: 0px 10px 20px #520975;
-    animation: floaty 1.8s infinite alternate;
-    animation-direction: alternate-reverse;
+    /* animation: floaty 1.8s infinite alternate;
+    animation-direction: alternate-reverse; */
     /* animation: floaty 2.1s infinite; */
     text-align: center;
     margin-bottom: 90px;
@@ -284,20 +284,25 @@ h4{
     letter-spacing:  5px;
     color: #fd7f02 !important;
     text-shadow: 0px 10px 20px #520975 !important;
-    animation: floaty 1.8s infinite alternate;
-    animation-direction: alternate-reverse;
+    /* animation: floaty 1.8s infinite alternate;
+    animation-direction: alternate-reverse; */
     /* animation: floaty 2.1s infinite; */
     text-align: center;
     margin-bottom: 90px;
     font-size: 50px !important;
     font-family:font-dbz;
+    margin-top: 30px !important;
+}
+H5{
+    
+    width: 200px;
 }
 
 .elemento--fiho--personagem p {
     font-family: antenna;
     text-align: center;
     margin-bottom: 140px;
-    font-size: 35px;
+    font-size: 230px;
 
 }
 
@@ -305,6 +310,13 @@ h4{
     width: 600px;
 
 
+}
+
+.esferas{
+    
+    animation: floaty 1.8s infinite alternate;
+    animation-direction: alternate-reverse;
+    
 }
 
 
@@ -318,7 +330,7 @@ h4{
     }
 
     100% {
-        transform: translateY(20px);
+        transform: translateY(40px);
         /* text-shadow:  0px 0px 10px #520975; */
         /* text-shadow: #0f0713; */
         /* -webkit-text-stroke: #4c067142 10px;  */

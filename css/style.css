@@ -11,12 +11,12 @@
 
 
 body{
-    font-family:font-dbz;
+    font-family:font-dbz !important;
     
 }
 nav {
     height: 80px;
-    background-color: rgb(255, 153, 0);
+    background-color: #fd7f02 ;
     position: fixed;
     width: 100%;
     top: 0;
@@ -93,7 +93,7 @@ li {
    
 }
 
-.container {
+.container-index {
     min-width: 500px;
     /* max-width: 1000px; */
     text-align: center;
@@ -167,7 +167,7 @@ li {
     width: 100%;
 }
 
-.container {
+.container-index{
 
     min-width: 500px;
     max-width: 1000px;

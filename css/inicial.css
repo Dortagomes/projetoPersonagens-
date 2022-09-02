@@ -12,10 +12,7 @@ body{
 }
 
 
-#aberturas{
-    top: 138px;
-    position: relative;
-}
+
 
 .container--banner{
 
@@ -33,31 +30,36 @@ body{
 }
 
 .videos{
-    width: 80%;
+    display: block;
+
     margin: 312px 172px;
 }
 .videos div{
       
-    width: 62%;
-    margin: 0px auto;
+    width: 85%;
+    margin: 20px auto;
     
 }
 section div img{
     width: 565px;
     display: flex;
     justify-content: center;
+    margin: 0px auto;
+    
     
 }
 section div {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }
 
-h1{ 
-    color: #520975  !important;
-    margin-bottom: .5rem;
-     font-size: 80px  !important;
-    font-weight: 500;
+#imagens h1{ 
+    top: 200px;
+    position: relative;
+    color: #fd7f02  !important;
+     font-size: 180px  !important;
+    font-weight: 400;
     line-height: 1.2;
     font-family:font-dbz !important;
    
@@ -72,6 +74,7 @@ span{
     bottom: 30px;
     
 }
+
 
 
 @media (max-width: 1200px ) {

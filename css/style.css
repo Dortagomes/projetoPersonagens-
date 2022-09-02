@@ -185,7 +185,7 @@ li {
     width: 40%;
     margin: 20px;
     height: 300px;
-    border: 10px solid rgb(251, 176, 1);
+    border: 10px solid #fd7f02;
     overflow: hidden;
     position: relative;
     display: inline-block;
@@ -200,7 +200,7 @@ li {
     width: 40%;
     margin: 20px;
     height: 300px;
-    border: 10px solid rgb(251, 176, 1);
+    border: 10px solid #fd7f02;
     overflow: hidden;
     position: relative;
     display: inline-block;
@@ -228,7 +228,7 @@ footer {
 
 .logo2 {
     z-index: 99;
-    background-color: rgb(255, 153, 0);
+    background-color: #fd7f02;
 
     justify-content: center;
 
@@ -278,6 +278,19 @@ h1 {
     font-size: 100px;
     font-family:font-dbz;
 
+}
+
+h4{
+    letter-spacing:  5px;
+    color: #fd7f02 !important;
+    text-shadow: 0px 10px 20px #520975 !important;
+    animation: floaty 1.8s infinite alternate;
+    animation-direction: alternate-reverse;
+    /* animation: floaty 2.1s infinite; */
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 50px !important;
+    font-family:font-dbz;
 }
 
 .elemento--fiho--personagem p {
@@ -346,13 +359,13 @@ h1 {
     }
 
     .elemento--pai {
-        border: 5px solid rgb(251, 176, 1);
+        border: 5px solid #fd7f02;
         height: 200px;
         width: 200px;
     }
 
     .elemento--pai--right {
-        border: 5px solid rgb(251, 176, 1);
+        border: 5px solid #fd7f02;
         height: 200px;
         width: 200px;
     }

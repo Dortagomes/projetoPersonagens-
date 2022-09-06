@@ -270,9 +270,6 @@ footer {
 h1 { 
     letter-spacing:  8px;
     text-shadow: 0px 10px 20px #520975;
-    /* animation: floaty 1.8s infinite alternate;
-    animation-direction: alternate-reverse; */
-    /* animation: floaty 2.1s infinite; */
     text-align: center;
     margin-bottom: 90px;
     font-size: 100px;
@@ -298,11 +295,15 @@ H5{
     width: 200px;
 }
 
+span{
+    font-size: 25px;
+}
+
 .elemento--fiho--personagem p {
     font-family: antenna;
     text-align: center;
     margin-bottom: 140px;
-    font-size: 230px;
+    font-size: 35px;
 
 }
 
@@ -317,6 +318,10 @@ H5{
     animation: floaty 1.8s infinite alternate;
     animation-direction: alternate-reverse;
     
+}
+
+.container{
+    background-color: #fd7f02;
 }
 
 

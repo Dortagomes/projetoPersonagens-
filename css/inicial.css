@@ -34,7 +34,7 @@ body{
 
     margin: 312px 172px;
 }
-.videos div{
+.videos  div{
       
     width: 85%;
     margin: 20px auto;
@@ -48,13 +48,13 @@ section div img{
     
     
 }
-section div {
+section  div {
     display: flex;
     justify-content: space-around;
     
 }
 
-#imagens h1{ 
+#imagens h2{ 
     top: 200px;
     position: relative;
     color: #fd7f02  !important;

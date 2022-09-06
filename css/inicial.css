@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0 auto;
+    margin: 0 auto;
 }
 
 body{
@@ -34,11 +34,20 @@ body{
 
     margin: 312px 172px;
 }
-.videos  div{
+.videos > div{
       
-    width: 85%;
-    margin: 20px auto;
+    width: 50%;
+    margin: 150px auto;
     
+}
+
+.esferas{ 
+       width: 32%
+}
+
+.modal-esferas{
+    display: flex;
+    justify-content: center;
 }
 section div img{
     width: 565px;
@@ -48,14 +57,12 @@ section div img{
     
     
 }
-section  div {
-    display: flex;
-    justify-content: space-around;
-    
-}
+
 
 #imagens h2{ 
     top: 200px;
+    display: flex;
+    justify-content: space-around;
     position: relative;
     color: #fd7f02  !important;
      font-size: 120px  !important;
@@ -75,6 +82,10 @@ span{
     
 }
 
+.rodape-end{
+    line-height: 5.5;
+}
+
 
 
 @media (max-width: 1200px ) {
@@ -84,5 +95,10 @@ span{
          position: relative;
         top: 110px;
 
+    }
+
+
+    .modal-esferas{
+        width: 100%;
     }
 }

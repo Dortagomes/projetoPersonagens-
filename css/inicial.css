@@ -49,13 +49,28 @@ body{
     display: flex;
     justify-content: center;
 }
-section div img{
+section >div >img{
     width: 565px;
     display: flex;
     justify-content: center;
     margin: 0px auto;
     
     
+}
+
+.img--shenlong{
+    right: 135px;
+    position: relative;
+    width: 741px;
+    box-sizing: border-box;
+}
+
+.color-bg{
+   background-color:  #3333338a!important;
+}
+.color-txt{
+    color: white !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -71,21 +86,27 @@ section div img{
     font-family:font-dbz !important;
    
 }
-span{
-    position: relative;
-    color: orange;
-    font-size: 50px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 17px;
-    bottom: 30px;
-    
-}
 
 .end{
     line-height: 5.5;
+    display: flex;
+    justify-content: center;
+    margin: 81px;
 }
 
+
+
+    
+
+
+@media (min-width: 768px) { 
+    
+ }
+
+
+@media (min-width: 992px) {
+    
+ }
 
 
 @media (max-width: 1200px ) {
@@ -96,8 +117,6 @@ span{
         top: 110px;
 
     }
-
-
     .modal-esferas{
         width: 100%;
     }

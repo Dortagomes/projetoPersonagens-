@@ -22,7 +22,7 @@
   <div class="musica">
 
     <audio src="/Projeto_anime/assents/audio/goku.mp3" preload autoplay loop>
-      <spam>seu navegador nao tem suporte a audio</span>
+      
 
     </audio>
   </div>
@@ -57,35 +57,36 @@
   </section>
   <section id="imagens">
     <div>
-      <h2 > GALERIA </h2>
+      <h2> GALERIA </h2>
     </div>
+
 
     <div class="videos">
 
+        <div class="modal" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content ">
+              <div class="modal-header">
+                <h5 class="modal-title"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
 
-      <div class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title"></h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+
+    
 
 
-
-      <div id="carouselExampleControls" class="carousel slide  "  data-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide  " data-ride="carousel">
 
         <div class="carousel-inner " role="document">
 
@@ -109,64 +110,52 @@
           </div>
 
 
-
         </div>
-
-
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
-      <div class="modal-esferas">
+    <div class="modal-esferas">
 
-        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal">
+      <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal">
 
-          <li ><a href="#"><img class="esferas" src="/Projeto_anime/assents/img/esferas.jpeg" alt=" esferas do dragão"></a>
-            <h4>CLIC NAS ESFERAS CHAME SHENLONG E REALIZE SEU DESEJO</h4>
-          </li>
-        </button>
+        <li><a href="#"><img class="esferas" src="/Projeto_anime/assents/img/esferas.jpeg" alt=" esferas do dragão"></a>
+          <h4>CLIC NAS ESFERAS CHAME SHENLONG E REALIZE SEU DESEJO</h4>
+        </li>
+      </button>
 
-
-
-        
-
-
-
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Shenlong Deus Dragao, Ele te consede tres desejos...</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <img src="/Projeto_anime/assents/img/shenlong.jpeg.png" alt="shenlong">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">DEIXAR PARA DEPOIS</button>
-                <button type="button" class="btn btn-primary">SEU DESEJO AGORA</button>
-              </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content color-bg"  >
+            <div class="modal-header">
+              <h5 class="modal-title color-txt" id="exampleModalLabel">Shenlong, O Deus Dragão te consede três desejos...</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img--shenlong" src="/Projeto_anime/assents/img/shenlong.jpeg.png" alt="shenlong">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary color-txt" data-dismiss="modal">DEIXAR PARA DEPOIS</button>
+              <button type="button" class="btn btn-primary color-txt" >SEU DESEJO AGORA</button>
             </div>
           </div>
         </div>
+      </div>
 
 
-       
+
     </div>
-
-
-        
-
-      
+  
 
 
 
@@ -174,40 +163,57 @@
 
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-          $('#myModal').on('shown.bs.modal', function () {
-            $('#myInput').trigger('focus')
-          })
-        </script>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+      $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+    </script>
 
 
 
 </body>
 
-<section class="end" >
-  
-    <div  >
-      <div class="row justify-content-between">
-        <div class="col-md-4"><iframe width="560" height="315" src="https://www.youtube.com/embed/HNY3rlgfxvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div class="col-md-4"><iframe width="560" height="315" src="https://www.youtube.com/embed/5hcbImg97UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div class="col-md-4"><iframe width="560" height="315" src="https://www.youtube.com/embed/T-jBCq_mES0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        
-      
-      </div >
-      <div class="row justify-content-between">
-        <div class="col-md-4"><img width="560" height="315" src="/Projeto_anime/assents/img/carrossel4.jpg" alt=""></iframe></div>
-        <div class="col-md-4"><img width="560" height="315" src="/Projeto_anime/assents/img/carrossel3.jpg" alt=""></iframe></div>
-        <div class="col-md-4"><img width="560" height="315" src="/Projeto_anime/assents/img/carrossel2.jpg" alt=""></iframe></div>
-      </div>
+<section class="end">
+
+  <div>
+    <div class="row justify-content-between">
+      <div class="col-md-4"><iframe width="560" height="315" src="https://www.youtube.com/embed/HNY3rlgfxvA"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe></div>
+      <div class="col-md-4"><iframe width="560" height="315" src="https://www.youtube.com/embed/5hcbImg97UI"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe></div>
+      <div class="col-md-4"><iframe width="560" height="315" src="https://www.youtube.com/embed/T-jBCq_mES0"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe></div>
+
+
     </div>
-  
+    <div class="row justify-content-between">
+      <div class="col-md-4"><img width="560" height="315" src="/Projeto_anime/assents/img/carrossel4.jpg"
+          alt=""></iframe></div>
+      <div class="col-md-4"><img width="560" height="315" src="/Projeto_anime/assents/img/carrossel3.jpg"
+          alt=""></iframe></div>
+      <div class="col-md-4"><img width="560" height="315" src="/Projeto_anime/assents/img/carrossel2.jpg"
+          alt=""></iframe></div>
+    </div>
+  </div>
+
 </section>
 
 </html>
